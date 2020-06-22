@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B01AC6D2448002400ADAAD0 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B01AC6C2448002400ADAAD0 /* Card.swift */; };
+		8B01AC71244809DA00ADAAD0 /* MainViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B01AC70244809DA00ADAAD0 /* MainViewPresenter.swift */; };
+		8B01AC7324480EBB00ADAAD0 /* CardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B01AC7224480EBB00ADAAD0 /* CardService.swift */; };
+		8B09BA98244FF19300C3D07E /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B09BA97244FF19300C3D07E /* UIViewExtension.swift */; };
+		8B248FE6244D369E00DC20C0 /* ProgrammaticallyLayoutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B248FE5244D369E00DC20C0 /* ProgrammaticallyLayoutable.swift */; };
+		8B248FE9244D509B00DC20C0 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B248FE8244D509B00DC20C0 /* UIColorExtension.swift */; };
+		8B248FEB244D69F500DC20C0 /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B248FEA244D69F500DC20C0 /* UIFontExtension.swift */; };
+		8B248FEF244D700E00DC20C0 /* TodisLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B248FEE244D700E00DC20C0 /* TodisLabel.swift */; };
+		8B248FF2244E21C100DC20C0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B248FF1244E21C100DC20C0 /* CardView.swift */; };
+		8BD453E324477E6B00BFEA5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD453E224477E6B00BFEA5A /* AppDelegate.swift */; };
+		8BD453E524477E6B00BFEA5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD453E424477E6B00BFEA5A /* SceneDelegate.swift */; };
+		8BD453E724477E6B00BFEA5A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD453E624477E6B00BFEA5A /* MainViewController.swift */; };
+		8BD453EA24477E6B00BFEA5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD453E824477E6B00BFEA5A /* Main.storyboard */; };
+		8BD453EC24477E6D00BFEA5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BD453EB24477E6D00BFEA5A /* Assets.xcassets */; };
+		8BD453EF24477E6D00BFEA5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD453ED24477E6D00BFEA5A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B01AC6C2448002400ADAAD0 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		8B01AC70244809DA00ADAAD0 /* MainViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewPresenter.swift; sourceTree = "<group>"; };
+		8B01AC7224480EBB00ADAAD0 /* CardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardService.swift; sourceTree = "<group>"; };
+		8B09BA97244FF19300C3D07E /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		8B248FE5244D369E00DC20C0 /* ProgrammaticallyLayoutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticallyLayoutable.swift; sourceTree = "<group>"; };
+		8B248FE8244D509B00DC20C0 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		8B248FEA244D69F500DC20C0 /* UIFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
+		8B248FEE244D700E00DC20C0 /* TodisLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodisLabel.swift; sourceTree = "<group>"; };
+		8B248FF1244E21C100DC20C0 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		8BD453DF24477E6B00BFEA5A /* Todis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD453E224477E6B00BFEA5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BD453E424477E6B00BFEA5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8BD453E624477E6B00BFEA5A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8BD453E924477E6B00BFEA5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BD453EB24477E6D00BFEA5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BD453EE24477E6D00BFEA5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BD453F024477E6D00BFEA5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BD453DC24477E6B00BFEA5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B01AC6E2448069E00ADAAD0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8B248FE5244D369E00DC20C0 /* ProgrammaticallyLayoutable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		8B01AC6F2448090900ADAAD0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8B01AC7224480EBB00ADAAD0 /* CardService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8B248FE7244D502900DC20C0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8B248FE8244D509B00DC20C0 /* UIColorExtension.swift */,
+				8B248FEA244D69F500DC20C0 /* UIFontExtension.swift */,
+				8B09BA97244FF19300C3D07E /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8B248FEC244D6C6800DC20C0 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				8B248FF0244E21AB00DC20C0 /* Components */,
+				8B248FED244D6C8A00DC20C0 /* Labels */,
+				8B248FE7244D502900DC20C0 /* Extensions */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		8B248FED244D6C8A00DC20C0 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				8B248FEE244D700E00DC20C0 /* TodisLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		8B248FF0244E21AB00DC20C0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8B248FF1244E21C100DC20C0 /* CardView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8BD453D624477E6B00BFEA5A = {
+			isa = PBXGroup;
+			children = (
+				8BD453E124477E6B00BFEA5A /* Todis */,
+				8BD453E024477E6B00BFEA5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BD453E024477E6B00BFEA5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BD453DF24477E6B00BFEA5A /* Todis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BD453E124477E6B00BFEA5A /* Todis */ = {
+			isa = PBXGroup;
+			children = (
+				8B248FEC244D6C6800DC20C0 /* Themes */,
+				8B01AC6F2448090900ADAAD0 /* Service */,
+				8B01AC6E2448069E00ADAAD0 /* Protocols */,
+				8BD453FA2447D3B400BFEA5A /* Controller */,
+				8BD453F92447D3A100BFEA5A /* Resources */,
+				8BD453F82447D39400BFEA5A /* Presenter */,
+				8BD453F72447D38E00BFEA5A /* View */,
+				8BD453F62447D38700BFEA5A /* Model */,
+				8BD453F024477E6D00BFEA5A /* Info.plist */,
+				8BD453E224477E6B00BFEA5A /* AppDelegate.swift */,
+				8BD453E424477E6B00BFEA5A /* SceneDelegate.swift */,
+			);
+			path = Todis;
+			sourceTree = "<group>";
+		};
+		8BD453F62447D38700BFEA5A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B01AC6C2448002400ADAAD0 /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8BD453F72447D38E00BFEA5A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BD453E824477E6B00BFEA5A /* Main.storyboard */,
+				8BD453ED24477E6D00BFEA5A /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BD453F82447D39400BFEA5A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8B01AC70244809DA00ADAAD0 /* MainViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		8BD453F92447D3A100BFEA5A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8BD453EB24477E6D00BFEA5A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8BD453FA2447D3B400BFEA5A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8BD453E624477E6B00BFEA5A /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BD453DE24477E6B00BFEA5A /* Todis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BD453F324477E6D00BFEA5A /* Build configuration list for PBXNativeTarget "Todis" */;
+			buildPhases = (
+				8BD453DB24477E6B00BFEA5A /* Sources */,
+				8BD453DC24477E6B00BFEA5A /* Frameworks */,
+				8BD453DD24477E6B00BFEA5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Todis;
+			productName = Todis;
+			productReference = 8BD453DF24477E6B00BFEA5A /* Todis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BD453D724477E6B00BFEA5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = cristhia.pabon;
+				TargetAttributes = {
+					8BD453DE24477E6B00BFEA5A = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 8BD453DA24477E6B00BFEA5A /* Build configuration list for PBXProject "Todis" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BD453D624477E6B00BFEA5A;
+			productRefGroup = 8BD453E024477E6B00BFEA5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BD453DE24477E6B00BFEA5A /* Todis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BD453DD24477E6B00BFEA5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD453EF24477E6D00BFEA5A /* LaunchScreen.storyboard in Resources */,
+				8BD453EC24477E6D00BFEA5A /* Assets.xcassets in Resources */,
+				8BD453EA24477E6B00BFEA5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BD453DB24477E6B00BFEA5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B248FE6244D369E00DC20C0 /* ProgrammaticallyLayoutable.swift in Sources */,
+				8B248FEB244D69F500DC20C0 /* UIFontExtension.swift in Sources */,
+				8BD453E724477E6B00BFEA5A /* MainViewController.swift in Sources */,
+				8B01AC7324480EBB00ADAAD0 /* CardService.swift in Sources */,
+				8B248FEF244D700E00DC20C0 /* TodisLabel.swift in Sources */,
+				8B248FE9244D509B00DC20C0 /* UIColorExtension.swift in Sources */,
+				8B09BA98244FF19300C3D07E /* UIViewExtension.swift in Sources */,
+				8BD453E324477E6B00BFEA5A /* AppDelegate.swift in Sources */,
+				8B01AC71244809DA00ADAAD0 /* MainViewPresenter.swift in Sources */,
+				8BD453E524477E6B00BFEA5A /* SceneDelegate.swift in Sources */,
+				8B248FF2244E21C100DC20C0 /* CardView.swift in Sources */,
+				8B01AC6D2448002400ADAAD0 /* Card.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BD453E824477E6B00BFEA5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BD453E924477E6B00BFEA5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BD453ED24477E6D00BFEA5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BD453EE24477E6D00BFEA5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BD453F124477E6D00BFEA5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BD453F224477E6D00BFEA5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BD453F424477E6D00BFEA5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XC3U2NJT5;
+				INFOPLIST_FILE = Todis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fronterasdigitales.Todis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BD453F524477E6D00BFEA5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XC3U2NJT5;
+				INFOPLIST_FILE = Todis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fronterasdigitales.Todis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BD453DA24477E6B00BFEA5A /* Build configuration list for PBXProject "Todis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BD453F124477E6D00BFEA5A /* Debug */,
+				8BD453F224477E6D00BFEA5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BD453F324477E6D00BFEA5A /* Build configuration list for PBXNativeTarget "Todis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BD453F424477E6D00BFEA5A /* Debug */,
+				8BD453F524477E6D00BFEA5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BD453D724477E6B00BFEA5A /* Project object */;
+}
